@@ -6,7 +6,7 @@ body{
 }
 .main{
   background-color: rgb(34, 201, 168);
-  height: 75vh;
+  height: 650px;
   width: 300px;
   border: 2px solid rgb(153, 150, 150);
   border-radius: 10px;
