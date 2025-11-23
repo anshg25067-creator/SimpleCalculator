@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./calc.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <h1>CALCULATOR</h1>
+  <div class="main">
+    <input type="text" class="display" readonly>
+    <div class="keys">
+      <button class="buttons" onclick=" x=' '; document.querySelector(`.display`).value = x; ">C</button>
+      <button class="buttons" onclick=" x+=1; document.querySelector(`.display`).value = x; ">1</button>
+      <button class="buttons" onclick=" x+=2; document.querySelector(`.display`).value = x; ">2</button>
+      <button class="buttons" onclick=" x+=3; document.querySelector(`.display`).value = x; ">3</button>
+      <button class="buttons" onclick=" x+=4; document.querySelector(`.display`).value = x; ">4</button>
+      <button class="buttons" onclick=" x+=5; document.querySelector(`.display`).value = x; ">5</button>
+      <button class="buttons" onclick=" x+=6; document.querySelector(`.display`).value = x; ">6</button>
+      <button class="buttons" onclick=" x+=7; document.querySelector(`.display`).value = x; ">7</button>
+      <button class="buttons" onclick=" x+=8; document.querySelector(`.display`).value = x; ">8</button>
+      <button class="buttons" onclick=" x+=9; document.querySelector(`.display`).value = x; ">9</button>
+      <button class="buttons" onclick=" x+=0; document.querySelector(`.display`).value = x; ">0</button>
+      <button class="buttons" onclick=" x+=`+`; document.querySelector(`.display`).value = x; ">+</button>
+      <button class="buttons" onclick=" x+=`-`; document.querySelector(`.display`).value = x; ">-</button>
+      <button class="buttons" onclick=" x+=`*`; document.querySelector(`.display`).value = x; ">*</button>
+      <button class="buttons" onclick=" x+=`/`; document.querySelector(`.display`).value = x; ">/</button>
+      <button class="buttons" onclick="let res = eval(x); document.querySelector(`.display`).value = res;">=</button>
+    </div>
+  </div>
+
+
+
+  <script src="./calc.js"></script>
+</body>
+</html>
